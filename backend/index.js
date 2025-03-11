@@ -14,6 +14,8 @@ import dotenv from 'dotenv'
 
 dotenv.config();
 
+const __dirname = path.resolve()
+
 const port = process.env.PORT || 3000;
 const app = express();
 
